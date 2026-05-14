@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>965caabd-ea59-4ebd-b6a7-fe43e52a74d0</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Tutor_Application.py</StartupFile>
+    <StartupFile>Main.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +21,13 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Tutor_Application.py" />
+    <Compile Include="class1.py" />
+    <Compile Include="LoginScreen.py" />
+    <Compile Include="Main.py" />
+    <Compile Include="LoginCredentials.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Credentials.json" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
